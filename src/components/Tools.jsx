@@ -32,6 +32,19 @@ const Tools = () => {
               <div className="flex justify-center items-center bg-white rounded-md w-24 h-20">
                 <img
                   className="w-12 h-12"
+                  src="images/mysql.png"
+                  alt="mysql logo"
+                />
+              </div>
+              <div className="project rounded-md flex flex-col">
+                <h3 className="text-white max-sm:text-[20px]">MySql</h3>
+                <p className="text-zinc-500">Gestionnaire de bdd</p>
+              </div>
+            </div>
+            <div className="project rounded-md flex gap-5 p-5">
+              <div className="flex justify-center items-center bg-white rounded-md w-24 h-20">
+                <img
+                  className="w-12 h-12"
                   src="images/figma.png"
                   alt="figma logo"
                 />

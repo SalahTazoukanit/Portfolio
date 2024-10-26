@@ -19,13 +19,13 @@ const Header = () => {
               alt="logo projets"
             />
           </NavLink>
-          <div>
+          <NavLink to={"/tools"}>
             <img
               className="w-6 hover:opacity-50"
               src="images/tool.png"
               alt="logo technologies"
             />
-          </div>
+          </NavLink>
           <a href="#contact">
             <img
               className="w-6 hover:opacity-50"

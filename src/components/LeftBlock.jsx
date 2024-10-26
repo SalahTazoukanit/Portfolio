@@ -1,6 +1,6 @@
 const LeftBlock = () => {
   return (
-    <div className="left-block flex flex-col justify-center items-center border bg-white rounded-2xl p-5 gap-10 w-full md:w-1/5 md:sticky md:top-[15vh] md:mt-[50px] md:h-[70vh]">
+    <div className="left-block text-black flex flex-col justify-center items-center border bg-white rounded-2xl p-5 gap-10 w-full md:w-1/5 md:sticky md:top-[15vh] md:mt-[50px] md:h-[70vh]">
       <div>
         <img src="" alt="" />
       </div>
