@@ -1,4 +1,5 @@
 import Contact from "../components/Contact";
+import Cv from "../components/Cv";
 import FirstContent from "../components/FirstContent";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -9,7 +10,7 @@ import Tools from "../components/Tools";
 const Homepage = () => {
   return (
     <>
-      <div className="mx-5 mb-24">
+      <div className="mx-5">
         <Header />
         <div className="flex flex-col md:flex-row justify-center w-full mt-10 gap-10">
           <LeftBlock />
@@ -17,6 +18,7 @@ const Homepage = () => {
             <FirstContent />
             <Projects />
             <Tools />
+            <Cv />
             <Contact />
           </div>
         </div>

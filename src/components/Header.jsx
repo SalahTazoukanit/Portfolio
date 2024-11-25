@@ -26,7 +26,7 @@ const Header = () => {
               alt="logo technologies"
             />
           </NavLink>
-          <a href="#contact">
+          <a href="/#contact">
             <img
               className="w-6 hover:opacity-50"
               src="images/contact.png"
